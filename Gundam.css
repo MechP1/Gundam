@@ -1,0 +1,120 @@
+* {
+  padding: 0;
+  margin: 0;
+  background-color: palegreen;
+}
+
+h1,
+h2,
+h3,
+h4,
+p,
+li {
+  font-family: sans-serif;
+}
+
+.body {
+  padding: 10px 10px;
+  margin: 10px 10px;
+  position: relative;
+  background-color: palegreen;
+  width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.gundam {
+  width: 100%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+h1 {
+  text-align: center;
+  padding: 10px;
+  margin: 10px;
+  border: 5px solid red;
+  background-color: blue;
+  color: white;
+  text-transform: capitalize;
+}
+
+p::first-letter {
+  font-weight: bold;
+  color: red;
+}
+
+p::first-line {
+  font-weight: bold;
+  color: blue;
+}
+
+.para {
+  padding: 10px;
+  margin: 10px;
+  line-height: 1.5;
+  font-weight: bold;
+}
+
+h2 {
+  padding: 10px;
+  border: 5px solid blue;
+  background-color: red;
+  color: white;
+  display: inline-block;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+ul {
+  list-style: circle;
+}
+
+ul::first-line {
+  font-weight: bold;
+  color: red;
+}
+
+h3 {
+  padding: 10px;
+  color: white;
+  border: 5px solid red;
+  background-color: blue;
+  display: inline-block;
+  margin: 10px;
+}
+
+button {
+  position: absolute;
+  margin-top: 10px;
+  padding: 10px;
+  background-color: white;
+  color: #000;
+}
+
+a:link {
+  color: #000;
+  background-color: palegreen;
+}
+a {
+  background-color: palegreen;
+  display: block;
+}
+
+a:visited {
+  color: #000;
+  background-color: palegreen;
+}
+
+a:hover {
+  color: red;
+  font-family: sans-serif;
+  font-weight: bold;
+  cursor: pointer;
+  background-color: blue;
+}
+
+footer {
+  margin-top: 10px;
+  font-weight: bold;
+}
