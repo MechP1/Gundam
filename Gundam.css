@@ -90,6 +90,8 @@ button {
   padding: 10px;
   background-color: white;
   color: #000;
+  right: 200px;
+  border: solid yellow 5px;
 }
 
 a:link {
@@ -107,11 +109,11 @@ a:visited {
 }
 
 a:hover {
-  color: red;
+  color: white;
   font-family: sans-serif;
   font-weight: bold;
   cursor: pointer;
-  background-color: blue;
+  background-color: palegreen;
 }
 
 footer {
